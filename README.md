@@ -70,7 +70,7 @@ No necesitas instalar librerías externas, ya que el script utiliza la **bibliot
 
 Estas son las funcionalidades que están en camino:
 
-- [ ] **🎨 Interfaz Gráfica (GUI):** Implementación de una ventana amigable con `Tkinter` para evitar editar el código manualmente.
+- [✔] **🎨 Interfaz Gráfica (GUI):** Implementación de una ventana amigable con `Tkinter` para evitar editar el código manualmente.
 
 - [ ] **📋 Sistema de Logs:** Creación de un archivo `.log` para registrar qué archivos se movieron y detectar posibles errores.
 
