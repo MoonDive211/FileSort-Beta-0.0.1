@@ -63,6 +63,22 @@ No necesitas instalar librerías externas, ya que el script utiliza la **bibliot
 
 ---
 
+
+## 🗺️ Roadmap (Próximas Mejoras)
+
+¡El proyecto sigue en constante desarrollo! (Cuando tenga tiempo libre) 
+
+Estas son las funcionalidades que están en camino:
+
+- [ ] **🎨 Interfaz Gráfica (GUI):** Implementación de una ventana amigable con `Tkinter` para evitar editar el código manualmente.
+
+- [ ] **📋 Sistema de Logs:** Creación de un archivo `.log` para registrar qué archivos se movieron y detectar posibles errores.
+
+- [ ] **⚡ Monitoreo en Tiempo Real:** Ejecución en segundo plano para organizar archivos al instante en cuanto lleguen a la carpeta.
+
+- [ ] **⚙️ Configuración Externa:** Soporte para un archivo `.json` o `.yaml` para que el usuario defina sus propias categorías y extensiones.
+
+---
 ## 📄 Licencia
 
 Este proyecto es de código abierto bajo la licencia **MIT**. ¡Siéntete libre de usarlo y mejorarlo!
