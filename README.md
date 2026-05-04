@@ -8,9 +8,12 @@ El programa escanea un directorio específico y mueve automáticamente los archi
 
 ## ✨ Características
 
-*   **🧠 Clasificación Inteligente:** Clasifica archivos en categorías predefinidas de forma automática.
-*   **📂 Gestión Dinámica de Carpetas:** Si la carpeta de destino no existe, el script la crea por ti.
-*   **❓ Manejo de Desconocidos:** Los archivos con extensiones no identificadas se mueven a una carpeta llamada `Otros`.
+* **🖼️ Interfaz Gráfica (GUI):** No más consola negra. Usa una ventana intuitiva para seleccionar carpetas.
+
+*   **🧠 Organización por Categorías:** Clasifica automáticamente documentos, imagenes, vídeos, música y más.
+
+*   **📂 Seguridad:** Si la carpeta de destino no existe, el script la crea por ti.
+*   **❓ Filtro Inteligente:** Los archivos con extensiones no identificadas se mueven a una carpeta llamada `Otros`.
 
 *   **🛡️ Prevención de Errores:** 
     *   Ignora carpetas existentes para evitar bucles.
@@ -18,7 +21,9 @@ El programa escanea un directorio específico y mueve automáticamente los archi
 
 ---
 
-## 🛠️ Cómo funciona
+## 🛠️ Categoría de Organización
+
+El sistema reconoce los siguientes formatos y los agrupa así:
 
 
 | 📂 Categoría | 🛠️ Extensiones Soportadas |
@@ -30,7 +35,7 @@ El programa escanea un directorio específico y mueve automáticamente los archi
 | **Ejecutables** | <kbd>.exe</kbd> <kbd>.msi</kbd> <kbd>.pkg</kbd> <kbd>.deb</kbd> <kbd>.dmg</kbd> |
 | **Comprimidos** | <kbd>.zip</kbd> <kbd>.rar</kbd> <kbd>.tar</kbd> <kbd>.gz</kbd> |
 
-## 🚀 Instalación y Uso
+## 🚀 Como instalar y usar
 
 Sigue estos pasos para poner en marcha **Filesort** en tu equipo:
 
@@ -59,7 +64,7 @@ Sigue estos pasos para poner en marcha **Filesort** en tu equipo:
 No necesitas instalar librerías externas, ya que el script utiliza la **biblioteca estándar** de Python:
 
 *   **Python 3.x** instalado.
-*   Módulos internos: `os`, `shutil`.
+*   Módulos internos: `os`, `shutil`, `tkinter`.
 
 ---
 
