@@ -36,7 +36,7 @@ Sigue estos pasos para poner en marcha **Filesort** en tu equipo:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/filesort.git
+   git clone https://github.com/MoonDive211/FileSort-Beta-0.0.1
    cd filesort
    ```
 
